@@ -1,7 +1,8 @@
 ﻿using System;
 namespace MvvmUi
 {
-    public struct IMoveToItem
+    public interface IMoveToItem
     {
+        void MoveTo(int position);
     }
 }
